@@ -63,3 +63,10 @@ The DNS response observed in Wireshark matched the results obtained through nslo
 ## Conclusion
 
 This experiment demonstrated the DNS resolution process, the relationship between CNAME and A records, and how DNS queries and responses can be inspected using Wireshark.
+## Evidence
+
+### Wireshark DNS Response
+
+The following capture shows the DNS response containing the CNAME record and the two IPv4 addresses returned for the queried domain.
+
+![DNS Resolution Analysis](evidence/dns-resolution.png)
